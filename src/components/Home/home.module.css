@@ -1,0 +1,16 @@
+.portrait {
+  width: 80%;
+  box-shadow: 0 0 100px #fa7350;
+  transition: all 1s ease-out;
+  border-radius: 50%;
+}
+.portrait:hover {
+  box-shadow: 0 0 500px 25px #fa7350;
+  translate: 0 -20px;
+}
+@media (width < 1000px){
+  .home_text {
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}

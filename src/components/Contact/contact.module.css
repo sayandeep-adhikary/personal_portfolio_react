@@ -1,0 +1,33 @@
+.input_field {
+  display: block;
+  width: 23rem;
+  border-radius: 0 !important;
+  background-color: inherit !important;
+  border: none !important;
+  border-bottom: 2px solid rgb(255, 117, 144) !important;
+  color: inherit;
+  transition: 0.5s;
+}
+.input_field:focus {
+  border-radius: 0 !important;
+  background-color: inherit !important;
+  border: none !important;
+  border-bottom: 2px solid red !important;
+  outline: none !important;
+}
+.form {
+  font-family: "Montserrat", sans-serif;
+}
+@media (width < 1000px) {
+  .contactText {
+    text-align: center;
+  }
+  .form {
+    text-align: center;
+  }
+  .input_field {
+    width: 20rem !important;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+}

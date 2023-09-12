@@ -1,0 +1,29 @@
+.aboutImg {
+  border-radius: 20% !important;
+  width: 80%;
+  transition: all 1s ease-in;
+}
+.aboutImg:hover {
+  translate: 0 -20px;
+}
+.aboutText {
+  flex-direction: column;
+}
+.aboutImg1 {
+  box-shadow: 0 0 300px #b58b47 !important;
+}
+.aboutImg1:hover {
+  box-shadow: 0 0 700px 25px #b58b47 !important;
+}
+.aboutImg2 {
+  box-shadow: 0 0 300px rgb(112, 178, 203) !important;
+}
+.aboutImg2:hover {
+  box-shadow: 0 0 700px 25px rgb(112, 178, 203) !important;
+}
+.aboutImg3 {
+  box-shadow: 0 0 300px #9C9C69 !important;
+}
+.aboutImg3:hover {
+  box-shadow: 0 0 700px 25px #9C9C69 !important;
+}

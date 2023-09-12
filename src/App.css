@@ -1,38 +1,258 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Montserrat&display=swap");
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  /* transition: all 0.5s ease; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::selection {
+  background-color: #bde0fe;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.toggle-dark-mode {
+  background-color: #03001c;
+  color: white;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  transition: all 1s ease;
+}
+.orange_text {
+  color: #fb5607;
+  /* -webkit-text-stroke: 1px #fb5607; */
+  text-shadow: 0 0 7px #fb5607;
+}
+.typed-cursor {
+  color: #fb5607;
+}
+.cursive-text {
+  margin-top: 5rem;
+  font-family: "Borel", cursive;
+  font-size: 1.7rem !important;
+}
+.typeJs {
+  font-family: "Montserrat", sans-serif;
+}
+.icons {
+  text-decoration: none;
+  color: #7f8487;
+}
+.icons :hover {
+  text-decoration: none;
+  color: #fb5607;
+}
+.footer a {
+  text-decoration: none;
+  color: #7f8487;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #fb5607;
+}
+@media (width < 1000px) {
+  .footer {
+    text-align: center !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gallery {
+  margin: 5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.gallery img {
+  width: 70%;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: 1s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gallery .images {
+  gap: 15px;
+  columns: 5 340px;
+}
+.images .cardi {
+  list-style: none;
+  margin-bottom: 14px;
+  border-radius: 4px;
+}
+.images img {
+  width: 100%;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  /* box-shadow: 0 0 100px 25px crimson; */
+  scale: 1.02;
+}
+.style1:hover {
+  box-shadow: 0 0 500px 25px #fb5607;
+}
+.style2:hover {
+  box-shadow: 0 0 500px 25px #55a630;
+}
+.style3:hover {
+  box-shadow: 0 0 500px 25px #560bad;
+}
+.techImg {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: inherit;
+  transition: 1s;
+}
+.techImg:hover {
+  scale: 1.1;
+}
+#techImg1 {
+  box-shadow: 0 0 5px 2px #ff6600;
+}
+#techImg1:hover {
+  box-shadow: 0 0 100px 2px #ff6600;
+}
+#techImg2 {
+  box-shadow: 0 0 5px 2px #337eff;
+}
+#techImg2:hover {
+  box-shadow: 0 0 100px 2px #337eff;
+}
+#techImg3 {
+  box-shadow: 0 0 5px 2px #ffe01a;
+}
+#techImg3:hover {
+  box-shadow: 0 0 100px 2px #ffe01a;
+}
+#techImg4 {
+  box-shadow: 0 0 5px 2px #f05033;
+}
+#techImg4:hover {
+  box-shadow: 0 0 100px 2px #f05033;
+}
+#techImg5 {
+  box-shadow: 0 0 5px 2px #87cf30;
+}
+#techImg5:hover {
+  box-shadow: 0 0 100px 2px #87cf30;
+}
+#techImg6 {
+  box-shadow: 0 0 5px 2px #53c1de;
+}
+#techImg6:hover {
+  box-shadow: 0 0 100px 2px #53c1de;
+}
+.projectTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+#project1 {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #e30914;
+  transition: 1s ease-out;
+  transform: scale(1.2);
+}
+#project1:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #e30914;
+  
+}
+#nike_project {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #e30914;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#nike_project:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #e30914;
+  
+}
+#textutils_project {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #3109e3;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#textutils_project:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #3109e3;
+  
+}
+#project2 {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #ffe01a;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#project2:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #ffe01a;
+}
+#project3 {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #53c1de;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#project3:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #53c1de;
+}
+#project4 {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #007bff;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#project4:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #007bff;
+}
+#project5 {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #ff4c68;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#project5:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #ff4c68;
+}
+.netflix-element {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.container a {
+  text-decoration: none;
+  color: #7f8487;
+}
+.container a:hover {
+  text-decoration: none;
+  color: #fb5607;
+}
+.button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  transition: all 1s ease;
+}
+.button:hover {
+  scale: 1.2;
 }

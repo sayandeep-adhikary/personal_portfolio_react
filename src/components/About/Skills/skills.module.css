@@ -1,0 +1,10 @@
+.skillItem {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+.progress_cycle {
+  transition: 0.5s ease-out;
+}
+.progress_cycle:hover {
+  scale: 1.06
+}

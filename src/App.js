@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
+import Courses from "./components/Courses/Courses";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
+  const [mode, setMode] = useState("light-theme")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar mode={mode} setMode={setMode}/>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Project />} />
+          <Route exact path="/gallery" element={<Gallery/>} />
+          <Route exact path="/contact" element={<Contact mode={mode}/>} />
+          <Route exact path="/courses" element={<Courses />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

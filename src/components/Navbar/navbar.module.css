@@ -1,0 +1,18 @@
+.nav_item {
+  font-weight: 500;
+}
+.dark_text {
+  display: none;
+}
+@media (width < 1000px){
+  .nav_item_container {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .mode {
+    margin: 0 auto !important;
+  }
+  .dark_text {
+    display: inline;
+  }
+}
