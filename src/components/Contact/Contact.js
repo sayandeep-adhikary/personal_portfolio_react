@@ -45,7 +45,7 @@ export default function Contact({mode}) {
             </div>
             <button
               type="submit"
-              className="btn btn-outline-secondary my-3 p-2"
+              className={`btn btn-outline-${mode === "light-theme" ? "dark" : "light"} my-3 p-2`}
             >
               Send Message
             </button>
