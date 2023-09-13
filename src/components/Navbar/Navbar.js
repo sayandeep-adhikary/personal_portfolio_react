@@ -81,7 +81,7 @@ export default function Navbar({mode, setMode}) {
               id="toggle-dark-btn"
               onClick={()=>toggleMode()}
             >
-              <i className="fa-solid fa-moon mr-1" /> 
+              <i className={`fa-solid fa-${mode === "light-theme" ? "moon" : "sun"} mr-1`} /> 
               <span
                 id="dark-text"
                 className={`${styles.nav_item} ${styles.dark_text}`}
