@@ -93,7 +93,7 @@ export default function Project() {
               mobile devices, allowing users to engage with the Nike brand in a
               digital space reminiscent of the official Nike website."
               <a
-                href="https://sayandeep-nikestore.netlify.app/"
+                href="https://nikke-clone.vercel.app/"
                 target="_blank"
               >
                 Check the live website
@@ -125,7 +125,7 @@ export default function Project() {
               and devices, ensuring a consistent and user-friendly experience
               across all viewports."
               <a
-                href="https://sayandeeps-textutils.netlify.app/"
+                href="https://text-utils-react-js-lyart.vercel.app/"
                 target="_blank"
               >
                 Check the live website
@@ -155,7 +155,7 @@ export default function Project() {
               TV shows showcased on the clone website. The website's responsive
               design ensures seamless access from various devices, offering
               users a glimpse of the popular streaming service's interface.
-              <a href="https://sayandeepsnetflix.netlify.app/" target="_blank">
+              <a href="https://netflix-clone-tan-six.vercel.app/" target="_blank">
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
@@ -183,7 +183,7 @@ export default function Project() {
               'SWeather' aims to be a reliable and efficient tool for users to
               stay informed about the weather conditions, ensuring they are
               well-prepared for any outdoor activities or travel plans.
-              <a href="https://sayandeep-sweather.netlify.app/" target="_blank">
+              <a href="https://sweather-swart.vercel.app/" target="_blank">
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
@@ -211,7 +211,7 @@ export default function Project() {
               'My To Do' enables users to stay on top of their daily tasks and
               keep track of completed items effortlessly.
               <a
-                href="https://sayandeeps-todo-list.netlify.app/"
+                href="https://todo-list-beta-nine-23.vercel.app/"
                 target="_blank"
               >
                 Check the live website
@@ -243,7 +243,7 @@ export default function Project() {
               development techniques and create an engaging platform for fellow
               coders to learn and share knowledge.
               <a
-                href="https://sayandeepsicoderusingbootstrap.netlify.app/"
+                href="https://i-coder-bootstrap-theta.vercel.app/"
                 target="_blank"
               >
                 Check the live website
@@ -276,7 +276,7 @@ export default function Project() {
               their canine companions. TinDog is a delightful and interactive
               website that celebrates the joy of canine companionship."
               <a
-                href="https://sayandeep-adhikary.github.io/tinder-clone-TINDOG-/"
+                href="https://tinder-clone-tindog.vercel.app/"
                 target="_blank"
               >
                 Check the live website
