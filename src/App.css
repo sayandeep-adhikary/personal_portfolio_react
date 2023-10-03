@@ -173,7 +173,18 @@ body::-webkit-scrollbar {
 #nike_project:hover {
   translate: 0;
   box-shadow: 0 0 500px 4px #e30914;
-  
+}
+#freshcon {
+  margin-top: 3rem;
+  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 2px #0ed561;
+  transition: 1s ease-out;
+  transform: scale(1.15);
+}
+#freshcon:hover {
+  translate: 0;
+  box-shadow: 0 0 500px 4px #0ed561;
 }
 #textutils_project {
   margin-top: 3rem;
