@@ -65,6 +65,7 @@ export default function Home() {
               target="_blank"
               className="icons mr-4"
               rel="noreferrer"
+              alt="github"
             >
               <i className="fa-brands fa-square-github fa-2x my-3"></i>
             </a>
@@ -73,6 +74,7 @@ export default function Home() {
               target="_blank"
               className="icons mr-4"
               rel="noreferrer"
+              alt="linkedin"
             >
               <i className="fa-brands fa-linkedin fa-2x my-3"></i>
             </a>
@@ -81,6 +83,7 @@ export default function Home() {
               target="_blank"
               className="icons mr-4"
               rel="noreferrer"
+              alt="instagram"
             >
               <i className="fa-brands fa-square-instagram fa-2x my-3"></i>
             </a>
@@ -89,6 +92,7 @@ export default function Home() {
               target="_blank"
               className="icons mr-4"
               rel="noreferrer"
+              alt="facebook"
             >
               <i className="fa-brands fa-square-facebook fa-2x my-3"></i>
             </a>
