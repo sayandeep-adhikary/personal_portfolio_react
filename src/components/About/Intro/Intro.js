@@ -9,7 +9,7 @@ import aboutPhoto3_small from "../images/coder.gif";
 import styles from "./intro.module.css";
 
 export default function Intro() {
-  const [currentImage1, setCurrentImage1] = useState(aboutPhoto1_small);
+  const [currentImage1, setCurrentImage1] = useState(aboutPhoto3_small);
   const [loading1, setLoading1] = useState(true);
 
   const fetchImage1 = (src) => {
