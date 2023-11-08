@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 
 function App() {
-  const [mode, setMode] = useState("light-theme")
+  const [mode, setMode] = useState(localStorage.getItem("mode") || "light-theme");
   return (
     <>
       <Router>

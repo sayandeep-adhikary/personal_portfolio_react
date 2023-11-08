@@ -3,22 +3,26 @@ import navLogo from "./favicon.png";
 import styles from "./navbar.module.css";
 import { NavLink } from "react-router-dom";
 
-export default function Navbar({mode, setMode}) {
-
+export default function Navbar({ mode, setMode }) {
   const toggleMode = () => {
-    if(mode === "light-theme"){
+    if (mode === "light-theme") {
+      localStorage.setItem("mode", "toggle-dark-mode");
       setMode("toggle-dark-mode");
-    }else {
-      setMode("light-theme")
+    } else {
+      localStorage.setItem("mode", "light-theme");
+      setMode("light-theme");
     }
-  }
+  };
   useEffect(() => {
     document.body.className = mode;
-  }, [mode])
-  
+  }, [mode]);
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-${mode === "light-theme" ? "light" : "dark"} py-3`}>
+    <nav
+      className={`navbar navbar-expand-lg navbar-${
+        mode === "light-theme" ? "light" : "dark"
+      } py-4 ${styles.navbar}`}
+    >
       <NavLink className="navbar-brand" to="/">
         <img
           src={navLogo}
@@ -79,14 +83,18 @@ export default function Navbar({mode, setMode}) {
             <button
               className={`nav-link ${styles.mode}  button`}
               id="toggle-dark-btn"
-              onClick={()=>toggleMode()}
+              onClick={() => toggleMode()}
             >
-              <i className={`fa-solid fa-${mode === "light-theme" ? "moon" : "sun"} mr-1`} /> 
+              <i
+                className={`fa-solid fa-${
+                  mode === "light-theme" ? "moon" : "sun"
+                } mr-1`}
+              />
               <span
                 id="dark-text"
                 className={`${styles.nav_item} ${styles.dark_text}`}
               >
-                 {mode === "light-theme" ? "Dark Mode" : "Light Mode"}
+                {mode === "light-theme" ? "Dark Mode" : "Light Mode"}
               </span>
             </button>
           </li>

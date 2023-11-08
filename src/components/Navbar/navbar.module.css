@@ -4,7 +4,15 @@
 .dark_text {
   display: none;
 }
-@media (width < 1000px){
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background: transparent !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+@media (width < 1000px) {
   .nav_item_container {
     text-align: center !important;
     margin: 0 auto !important;
@@ -14,5 +22,10 @@
   }
   .dark_text {
     display: inline;
+  }
+}
+@media (width < 500px) {
+  .navbar {
+    /* margin: 3rem 2rem !important; */
   }
 }
