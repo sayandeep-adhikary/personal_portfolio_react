@@ -10,20 +10,22 @@
   flex-direction: column;
 }
 .aboutImg1 {
-  box-shadow: 0 0 300px #b58b47 !important;
-}
-.aboutImg1:hover {
-  box-shadow: 0 0 700px 25px #b58b47 !important;
-}
-.aboutImg2 {
   box-shadow: 0 0 300px rgb(112, 178, 203) !important;
 }
-.aboutImg2:hover {
+.aboutImg1:hover {
   box-shadow: 0 0 700px 25px rgb(112, 178, 203) !important;
 }
-.aboutImg3 {
+.aboutImg2 {
+  /* box-shadow: 0 0 300px rgb(112, 178, 203) !important; */
+  border-radius: 0% !important;
+}
+/*
+.aboutImg2:hover {
+  box-shadow: 0 0 700px 25px rgb(112, 178, 203) !important;
+} */
+/* .aboutImg3 {
   box-shadow: 0 0 300px #9C9C69 !important;
 }
 .aboutImg3:hover {
   box-shadow: 0 0 700px 25px #9C9C69 !important;
-}
+} */
