@@ -13,7 +13,7 @@ import ScrollToTop from "./components/SrollToTop/SrollToTop";
 
 function App() {
   const [mode, setMode] = useState(
-    localStorage.getItem("mode") || "light-theme"
+    localStorage.getItem("mode") || "toggle-dark-mode"
   );
   return (
     <>
