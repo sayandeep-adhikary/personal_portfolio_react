@@ -4,6 +4,9 @@ import favicon from "./favicon.png"
 export default function Footer() {
   return (
     <div className="footer">
+      <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div
           className="col-md-4 d-flex align-items-center"

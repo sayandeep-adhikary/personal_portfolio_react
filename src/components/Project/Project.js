@@ -6,7 +6,7 @@ import project4 from "./images/project2.png";
 import project5 from "./images/project3.png";
 import project6 from "./images/project4.png";
 import project7 from "./images/project5.png";
-import freshcon from './images/freshcon.png'
+import freshcon from "./images/freshcon.png";
 import Footer from "../Footer/Footer";
 
 export default function Project() {
@@ -79,11 +79,17 @@ export default function Project() {
                 alt="freshcon"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
-              "The Freshcon website's homepage, built using ReactJS, introduces visitors to our business specializing in shredded coconuts. It provides a welcoming and informative gateway to explore our offerings and learn more about our high-quality coconut products. With a user-friendly design, it ensures a seamless browsing experience, inviting customers to discover the versatility and freshness of our shredded coconuts." {" "}
+              "The Freshcon website's homepage, built using ReactJS, introduces
+              visitors to our business specializing in shredded coconuts. It
+              provides a welcoming and informative gateway to explore our
+              offerings and learn more about our high-quality coconut products.
+              With a user-friendly design, it ensures a seamless browsing
+              experience, inviting customers to discover the versatility and
+              freshness of our shredded coconuts."{" "}
               <a
                 href="https://freshcon-kappa.vercel.app/"
                 target="_blank"
@@ -92,18 +98,24 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
                 Nike Brand Store - The World of Best Shoes Ever.
               </div>
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
               <img
                 id="nike_project"
                 src={project1}
                 alt="nike website"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
@@ -116,7 +128,7 @@ export default function Project() {
               offerings. The website's responsive design ensures a seamless and
               immersive experience, whether accessed from desktops, tablets, or
               mobile devices, allowing users to engage with the Nike brand in a
-              digital space reminiscent of the official Nike website." {" "}
+              digital space reminiscent of the official Nike website."{" "}
               <a
                 href="https://nikke-clone.vercel.app/"
                 target="_blank"
@@ -125,6 +137,9 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
@@ -136,8 +151,11 @@ export default function Project() {
                 alt="textutils"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               "Textutils is a versatile web application powered by ReactJS,
@@ -149,7 +167,7 @@ export default function Project() {
               mode toggle for comfortable usage in low-light environments. This
               fully responsive web app adapts seamlessly to various screen sizes
               and devices, ensuring a consistent and user-friendly experience
-              across all viewports." {" "}
+              across all viewports."{" "}
               <a
                 href="https://text-utils-react-js-lyart.vercel.app/"
                 target="_blank"
@@ -158,19 +176,28 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
                 Netflix Clone - All Day Binge Watch, Just Netflix and Chill.
               </div>
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
               <img
                 id="project1"
                 src={project3}
                 alt="netflix project"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
+              <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               The "Netflix Clone" is my website project, a dummy version of the
@@ -181,14 +208,20 @@ export default function Project() {
               browsing experience. Users can explore a selection of movies and
               TV shows showcased on the clone website. The website's responsive
               design ensures seamless access from various devices, offering
-              users a glimpse of the popular streaming service's interface. {" "}
-              <a href="https://netflix-clone-tan-six.vercel.app/" target="_blank"
-              rel="noreferrer">
+              users a glimpse of the popular streaming service's interface.{" "}
+              <a
+                href="https://netflix-clone-tan-six.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
             </p>
             <div className="col-12 my-5" data-aos="fade-up">
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
               <div className="projectTitle my-5">
                 SWeather - A Ready To Go Weather App!
               </div>
@@ -198,7 +231,7 @@ export default function Project() {
                 alt="sweather project"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
@@ -210,9 +243,12 @@ export default function Project() {
               for weather details in any specific city of their choice.
               'SWeather' aims to be a reliable and efficient tool for users to
               stay informed about the weather conditions, ensuring they are
-              well-prepared for any outdoor activities or travel plans. {" "}
-              <a href="https://sweather-swart.vercel.app/" target="_blank"
-              rel="noreferrer">
+              well-prepared for any outdoor activities or travel plans.{" "}
+              <a
+                href="https://sweather-swart.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
@@ -227,9 +263,12 @@ export default function Project() {
                 alt="mytodo project"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               'My To Do' is my website project, a convenient Todo List app that
               allows users to efficiently add and organize tasks in a sequential
@@ -238,7 +277,7 @@ export default function Project() {
               is its integration with local storage, ensuring that tasks persist
               even after page refreshes. With a clean and intuitive interface,
               'My To Do' enables users to stay on top of their daily tasks and
-              keep track of completed items effortlessly. {" "}
+              keep track of completed items effortlessly.{" "}
               <a
                 href="https://todo-list-beta-nine-23.vercel.app/"
                 target="_blank"
@@ -248,6 +287,9 @@ export default function Project() {
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
             </p>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <div className="col-12 my-5" data-aos="fade-up">
               <div className="projectTitle my-5">
                 iCoder - Your Most Favourite Tech Blog Website.
@@ -258,9 +300,12 @@ export default function Project() {
                 alt="icoder project"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               'iCoders' is my coding blog website project, where I honed my
               Bootstrap skills. This website features a sleek navbar with
@@ -271,7 +316,7 @@ export default function Project() {
               using Bootstrap, showcasing my proficiency in this essential
               front-end framework. This project has allowed me to explore web
               development techniques and create an engaging platform for fellow
-              coders to learn and share knowledge. {" "}
+              coders to learn and share knowledge.{" "}
               <a
                 href="https://i-coder-bootstrap-theta.vercel.app/"
                 target="_blank"
@@ -281,6 +326,9 @@ export default function Project() {
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
             </p>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <div className="col-12 my-5" data-aos="fade-up">
               <div className="projectTitle my-5">
                 TinDog - Meet New And Interesting Dogs Nearby!
@@ -291,7 +339,7 @@ export default function Project() {
                 alt="tindog project"
                 loading="lazy"
                 className="my-5"
-                style={{width: "85%"}}
+                style={{ width: "85%" }}
               />
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
@@ -305,7 +353,7 @@ export default function Project() {
               The user-friendly interface allows seamless navigation, making it
               easy for dog lovers to connect and explore potential matches for
               their canine companions. TinDog is a delightful and interactive
-              website that celebrates the joy of canine companionship." {" "}
+              website that celebrates the joy of canine companionship."{" "}
               <a
                 href="https://tinder-clone-tindog.vercel.app/"
                 target="_blank"

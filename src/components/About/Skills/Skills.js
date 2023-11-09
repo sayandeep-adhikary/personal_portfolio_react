@@ -4,6 +4,9 @@ import styles from "./skills.module.css";
 export default function Skills() {
   return (
     <div className="container my-5">
+      <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
       <div className="display-4 text-center my-5" data-aos="fade-up">
         <span className="orange_text">Skills </span>&amp;
         <span className="orange_text"> Expertise</span>

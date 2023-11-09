@@ -215,6 +215,9 @@ export default function Gallery() {
                 }}
               />
             </li>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <li className="cardi style3">
               <img
                 src={currentImage3}
@@ -259,6 +262,9 @@ export default function Gallery() {
                 }}
               />
             </li>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <li className="cardi style1">
               <img
                 src={currentImage7}
@@ -292,6 +298,9 @@ export default function Gallery() {
                 }}
               />
             </li>
+            <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
             <li className="cardi style1">
               <img
                 src={currentImage10}

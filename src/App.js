@@ -8,19 +8,27 @@ import Contact from "./components/Contact/Contact";
 import Courses from "./components/Courses/Courses";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
+import ScrollToTop from "./components/SrollToTop/SrollToTop";
+
 
 function App() {
-  const [mode, setMode] = useState(localStorage.getItem("mode") || "light-theme");
+  const [mode, setMode] = useState(
+    localStorage.getItem("mode") || "light-theme"
+  );
   return (
     <>
       <Router>
-        <Navbar mode={mode} setMode={setMode}/>
+        <ScrollToTop/>
+        <Navbar mode={mode} setMode={setMode} />
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Project />} />
-          <Route exact path="/gallery" element={<Gallery/>} />
-          <Route exact path="/contact" element={<Contact mode={mode}/>} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/contact" element={<Contact mode={mode} />} />
           <Route exact path="/courses" element={<Courses />} />
         </Routes>
       </Router>

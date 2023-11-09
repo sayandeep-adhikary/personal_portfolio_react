@@ -19,6 +19,11 @@
   /* box-shadow: 0 0 300px rgb(112, 178, 203) !important; */
   border-radius: 0% !important;
 }
+@media (width < 500px){
+  .aboutImg3 {
+    scale: 1.4;
+  }
+}
 /*
 .aboutImg2:hover {
   box-shadow: 0 0 700px 25px rgb(112, 178, 203) !important;
