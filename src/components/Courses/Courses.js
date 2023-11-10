@@ -22,7 +22,7 @@ export default function Courses() {
       <div className="d-flex justify-content-center" data-aos="fade-down">
         <img
           src={currentImage}
-          alt
+          alt="course in progress"
           className="work_in_progress"
           loading="lazy"
           style={{ scale: "0.3" }}

@@ -13,6 +13,10 @@ body::-webkit-scrollbar {
 ::selection {
   background-color: #bde0fe;
 }
+
+/* *********************************Star Animation********************************* */
+
+
 .stars {
   width: 1px;
   height: 1px;
@@ -584,6 +588,10 @@ body::-webkit-scrollbar {
       transform: translateY(-2000px);
   }
 }
+
+
+/* ***************************************************************************************************** */
+
 .toggle-dark-mode {
   background-color: #03001c;
   color: white;
