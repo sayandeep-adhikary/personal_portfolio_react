@@ -49,37 +49,37 @@ export default function Navbar({ mode, setMode }) {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className={`navbar-nav ml-auto mr-5 ${styles.nav_item_container}`}>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/">
               Home <span className="sr-only">(current)</span>
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/about">
               About
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/projects">
               Projects
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/gallery">
               Gallery
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/contact">
               Contact Me
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <NavLink className="nav-link" to="/courses">
               Courses
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item`}>
+          <li className={`${styles.nav_item} nav-item mx-2`}>
             <button
               className={`nav-link ${styles.mode}  button`}
               id="toggle-dark-btn"
