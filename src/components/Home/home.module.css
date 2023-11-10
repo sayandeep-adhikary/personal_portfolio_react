@@ -13,4 +13,8 @@
     text-align: center !important;
     margin: 0 auto;
   }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+  }
 }

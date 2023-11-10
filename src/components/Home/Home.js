@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 import Portrait from "./portrait.png";
 import portrait_small from "./portrait_small.png";
 
-export default function Home() {
+export default function Home({ mode, setMode }) {
   const el = useRef(null);
   const [currentImage, setCurrentImage] = useState(portrait_small);
   const [loading, setLoading] = useState(true);
@@ -45,7 +45,7 @@ export default function Home() {
     <div className="container">
       <div className="row mt-0">
         <div
-          className="col-lg-6 col-12 order-2 order-lg-1 my-5 text"
+          className="col-lg-6 col-12 order-2 order-lg-1 my-3 text"
           data-aos="fade-right"
         >
           <div className={`container ${styles.home_text}`}>
@@ -60,6 +60,16 @@ export default function Home() {
             <h3 className="my-3 typeJs">
               A <span ref={el} className="orange_text"></span>
             </h3>
+            <div className={`container my-4 px-0 ${styles.buttonContainer}`}>
+              <button
+                className={`glow-on-hover`}
+                type="button"
+              >
+                <a href="/sayandeepadhikaryresume.pdf" download={'Sayandeep Adhikary Resume.pdf'} style={{color: 'inherit'}}>
+                DOWNLOAD CV
+                </a>
+              </button>
+            </div>
             <a
               href="https://github.com/sayandeep-adhikary"
               target="_blank"
