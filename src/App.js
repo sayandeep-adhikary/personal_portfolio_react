@@ -20,9 +20,9 @@ function App() {
       <Router>
         <ScrollToTop/>
         <Navbar mode={mode} setMode={setMode} />
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />

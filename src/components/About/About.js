@@ -7,9 +7,9 @@ export default function About() {
   return (
     <>
       <div className="container">
-      <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+        <div className="stars"></div>
+        <div className="stars2"></div>
+        <div className="stars3"></div>
         <Intro />
         <Skills />
       </div>

@@ -98,17 +98,11 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
                 Nike Brand Store - The World of Best Shoes Ever.
               </div>
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
               <img
                 id="nike_project"
                 src={project1}
@@ -137,9 +131,6 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
@@ -153,9 +144,6 @@ export default function Project() {
                 className="my-5"
                 style={{ width: "85%" }}
               />
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               "Textutils is a versatile web application powered by ReactJS,
@@ -176,17 +164,11 @@ export default function Project() {
                 Check the live website
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             </p>
             <div className="col-12 my-5">
               <div className="projectTitle my-5" data-aos="fade-up">
                 Netflix Clone - All Day Binge Watch, Just Netflix and Chill.
               </div>
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
               <img
                 id="project1"
                 src={project3}
@@ -195,9 +177,6 @@ export default function Project() {
                 className="my-5"
                 style={{ width: "85%" }}
               />
-              <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             </div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               The "Netflix Clone" is my website project, a dummy version of the
@@ -219,9 +198,6 @@ export default function Project() {
               </a>
             </p>
             <div className="col-12 my-5" data-aos="fade-up">
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
               <div className="projectTitle my-5">
                 SWeather - A Ready To Go Weather App!
               </div>
@@ -266,9 +242,9 @@ export default function Project() {
                 style={{ width: "85%" }}
               />
             </div>
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+            <div className="stars"></div>
+            <div className="stars2"></div>
+            <div className="stars3"></div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               'My To Do' is my website project, a convenient Todo List app that
               allows users to efficiently add and organize tasks in a sequential
@@ -287,9 +263,6 @@ export default function Project() {
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
             </p>
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             <div className="col-12 my-5" data-aos="fade-up">
               <div className="projectTitle my-5">
                 iCoder - Your Most Favourite Tech Blog Website.
@@ -303,9 +276,6 @@ export default function Project() {
                 style={{ width: "85%" }}
               />
             </div>
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             <p className="col-12 my-5 netflix-element" data-aos="fade-up">
               'iCoders' is my coding blog website project, where I honed my
               Bootstrap skills. This website features a sleek navbar with
@@ -326,9 +296,6 @@ export default function Project() {
                 <i className="fa-solid fa-arrow-up-right-from-square" />
               </a>
             </p>
-            <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
             <div className="col-12 my-5" data-aos="fade-up">
               <div className="projectTitle my-5">
                 TinDog - Meet New And Interesting Dogs Nearby!

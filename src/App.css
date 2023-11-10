@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 ::selection {
   background-color: #bde0fe;
 }
-#stars {
+.stars {
   width: 1px;
   height: 1px;
   background: transparent;
@@ -198,7 +198,7 @@ body::-webkit-scrollbar {
   696px 1654px #fff, 1144px 60px #fff;
 }
 
-#stars:after {
+.stars:after {
   content: '';
   position: absolute;
   /* top: 2000px; */
@@ -385,7 +385,7 @@ body::-webkit-scrollbar {
   696px 1654px #fff, 1144px 60px #fff;
 }
 
-#stars2 {
+.stars2 {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -444,7 +444,7 @@ body::-webkit-scrollbar {
   986px 1529px #fff, 1667px 1137px #fff;
 }
 
-#stars2:after {
+.stars2:after {
   content: '';
   position: absolute;
   /* top: 2000px; */
@@ -505,7 +505,7 @@ body::-webkit-scrollbar {
   986px 1529px #fff, 1667px 1137px #fff;
 }
 
-#stars3 {
+.stars3 {
   width: 0px;
   height: 0px;
   background: transparent;
@@ -539,12 +539,12 @@ body::-webkit-scrollbar {
   498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 }
 
-#stars3:after {
+.stars3:after {
   content: '';
   position: absolute;
   /* top: 2000px; */
-  width: 3px;
-  height: 3px;
+  width: 0px;
+  height: 0px;
   background: transparent;
   border-radius: 50%;
   box-shadow: 387px 1878px #fff, 760px 1564px #fff, 1487px 999px #fff,

@@ -4,9 +4,9 @@ import styles from "./skills.module.css";
 export default function Skills() {
   return (
     <div className="container my-5">
-      <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+      <div className="stars"></div>
+      <div className="stars2"></div>
+      <div className="stars3"></div>
       <div className="display-4 text-center my-5" data-aos="fade-up">
         <span className="orange_text">Skills </span>&amp;
         <span className="orange_text"> Expertise</span>
@@ -18,10 +18,10 @@ export default function Skills() {
           >
             <div className={`h5 my-4 ${styles.skillItem}`}>C++</div>
             <circle-progress
-                value="90"
-                max="100"
-                className={`${styles.progress_cycle} ${styles.skillItem}`}
-              ></circle-progress>
+              value="90"
+              max="100"
+              className={`${styles.progress_cycle} ${styles.skillItem}`}
+            ></circle-progress>
           </div>
           <div
             className="col-6 col-lg-3 col-md-6 my-3"

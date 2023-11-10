@@ -1,4 +1,4 @@
-import { useState, useEffect, useDebugValue } from "react";
+import { useEffect } from "react";
 import navLogo from "./favicon.png";
 import styles from "./navbar.module.css";
 import { NavLink } from "react-router-dom";
