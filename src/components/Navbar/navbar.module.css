@@ -4,6 +4,24 @@
 .dark_text {
   display: none;
 }
+.nav_item {
+  font-weight: 500 !important;
+  background: linear-gradient(to right,transparent,transparent),
+  linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.nav_item:hover {
+  background-size: 0 0.1em, 100% 0.1em;
+
+}
 .navbar {
   position: sticky !important;
   top: 0 !important;

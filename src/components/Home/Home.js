@@ -45,7 +45,7 @@ export default function Home({ mode, setMode }) {
     <div className="container">
       <div className="row mt-0">
         <div
-          className="col-lg-6 col-12 order-2 order-lg-1 my-3 text"
+          className="col-lg-6 col-12 order-2 order-lg-1"
           data-aos="fade-right"
         >
           <div className={`container ${styles.home_text}`}>
@@ -64,9 +64,14 @@ export default function Home({ mode, setMode }) {
               <button
                 className={`glow-on-hover`}
                 type="button"
+                mode={mode}
               >
-                <a href="/sayandeepadhikaryresume.pdf" download={'Sayandeep Adhikary Resume.pdf'} style={{color: 'inherit'}}>
-                DOWNLOAD CV
+                <a
+                  href="/sayandeepadhikaryresume.pdf"
+                  download={"Sayandeep Adhikary Resume.pdf"}
+                  style={{ color: "inherit" }}
+                >
+                  DOWNLOAD CV
                 </a>
               </button>
             </div>

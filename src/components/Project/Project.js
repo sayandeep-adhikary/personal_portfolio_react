@@ -12,7 +12,7 @@ import Footer from "../Footer/Footer";
 export default function Project() {
   return (
     <>
-      <div className="display-4 text-center mt-2 mb-5" data-aos="fade-up">
+      <div className="h1 text-center mt-2 mb-5" data-aos="fade-up" style={{fontFamily: '"Montserrat", sans-serif'}}>
         <span className="orange_text">Technologies </span>I have worked on
         <div className="container">
           <div className="row my-5">

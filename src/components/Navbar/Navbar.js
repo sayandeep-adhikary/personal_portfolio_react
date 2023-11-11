@@ -79,7 +79,7 @@ export default function Navbar({ mode, setMode }) {
               Courses
             </NavLink>
           </li>
-          <li className={`${styles.nav_item} nav-item mx-2`}>
+          <li className={`nav-item mx-2`}>
             <button
               className={`nav-link ${styles.mode}  button`}
               id="toggle-dark-btn"
@@ -92,7 +92,7 @@ export default function Navbar({ mode, setMode }) {
               />
               <span
                 id="dark-text"
-                className={`${styles.nav_item} ${styles.dark_text}`}
+                className={`${styles.dark_text}`}
               >
                 {mode === "light-theme" ? "Dark Mode" : "Light Mode"}
               </span>

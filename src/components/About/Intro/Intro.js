@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import handShake from "../images/handshake.gif";
 import aboutPhoto1 from "../images/image.png";
-import aboutPhoto1_small from "../images/aboutMe_photo2_small.jpg";
 import aboutPhoto2 from "../images/aboutMe_photo1.png";
 import aboutPhoto2_small from "../images/aboutMe_photo1_small.png";
 import aboutPhoto3 from "../images/coder.gif";
