@@ -24,7 +24,7 @@ function App() {
         <div className="stars2"></div>
         <div className="stars3"></div>
         <Routes>
-          <Route exact path="/" element={<Home mode={mode} setMode={setMode} />} />
+          <Route exact path="/" element={<Home mode={mode} />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/projects" element={<Project />} />
           <Route exact path="/gallery" element={<Gallery />} />

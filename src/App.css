@@ -906,6 +906,21 @@ body::-webkit-scrollbar {
   box-shadow: 0 0 500px 4px #e30914;
 }
 
+/* .wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  box-shadow: 0 0 100px 2px #0ed561;
+  border-radius: 10px;
+}
+.wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
 #freshcon {
   margin-top: 3rem;
   box-shadow: none;

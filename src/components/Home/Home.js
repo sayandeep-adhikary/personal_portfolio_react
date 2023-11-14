@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 import Portrait from "./portrait.png";
 import portrait_small from "./portrait_small.png";
 
-export default function Home({ mode, setMode }) {
+export default function Home({ mode }) {
   const el = useRef(null);
   const [currentImage, setCurrentImage] = useState(portrait_small);
   const [loading, setLoading] = useState(true);
