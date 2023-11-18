@@ -23,12 +23,13 @@
 
 }
 .navbar {
-  position: sticky !important;
+  position: fixed !important;
+  width: 100%;
   top: 0 !important;
   z-index: 1000 !important;
   background: transparent !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
 }
 @media (width < 1000px) {
   .nav_item_container {
@@ -42,8 +43,8 @@
     display: inline;
   }
 }
-@media (width < 500px) {
+/* @media (width < 500px) {
   .navbar {
-    /* margin: 3rem 2rem !important; */
+    margin: 3rem 2rem !important;
   }
-}
+} */

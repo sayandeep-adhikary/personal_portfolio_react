@@ -12,6 +12,9 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+body {
+  padding-top: 5rem !important;
+}
 
 ::selection {
   background-color: #bde0fe;
