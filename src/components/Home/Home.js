@@ -42,7 +42,7 @@ export default function Home({ mode }) {
     };
   }, []);
   return (
-    <div className="container">
+    <div className="container my-3">
       <div className="row mt-0">
         <div
           className="col-lg-6 col-12 order-2 order-lg-1"
