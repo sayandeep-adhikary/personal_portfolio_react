@@ -1,12 +1,20 @@
 import React from "react";
 import project1 from "./images/nike.png";
+import project1m from "./images/nikem.png";
 import project2 from "./images/textUtils.png";
+import project2m from "./images/textUtilsm.png";
 import project3 from "./images/project1.png";
+import project3m from "./images/project1m.png";
 import project4 from "./images/project2.png";
+import project4m from "./images/project2m.png";
 import project5 from "./images/project3.png";
+import project5m from "./images/project3m.png";
 import project6 from "./images/project4.png";
+import project6m from "./images/project4m.png";
 import project7 from "./images/project5.png";
+import project7m from "./images/project5m.png";
 import freshcon from "./images/freshcon.png";
+import freshconm from "./images/freshconm.png";
 import Footer from "../Footer/Footer";
 
 export default function Project() {
@@ -77,14 +85,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 Freshcon - Amplify the taste of your dishes!
               </div>
-              <img
-                id="freshcon"
-                src={freshcon}
-                alt="freshcon"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={freshconm} />
+                <img
+                  id="freshcon"
+                  src={freshcon}
+                  alt="freshcon"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 "The Freshcon website's homepage, built using ReactJS,
                 introduces visitors to our business specializing in shredded
@@ -107,14 +118,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 Nike Brand Store - The World of Best Shoes Ever.
               </div>
-              <img
-                id="nike_project"
-                src={project1}
-                alt="nike website"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project1m} />
+                <img
+                  id="nike_project"
+                  src={project1}
+                  alt="nike website"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 "The "Nike Brand Store" is my ReactJS project, inspired by the
                 iconic Nike brand. While it may not offer the full range of
@@ -141,14 +155,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 TextUtils - The Complete Text Analyzer/Formatter.
               </div>
-              <img
-                id="textutils_project"
-                src={project2}
-                alt="textutils"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project2m} />
+                <img
+                  id="textutils_project"
+                  src={project2}
+                  alt="textutils"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 "Textutils is a versatile web application powered by ReactJS,
                 designed to simplify and enhance text manipulation. With an
@@ -174,14 +191,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 Netflix Clone - All Day Binge Watch, Just Netflix and Chill.
               </div>
-              <img
-                id="project1"
-                src={project3}
-                alt="netflix project"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project3m} />
+                <img
+                  id="project1"
+                  src={project3}
+                  alt="netflix project"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 The "Netflix Clone" is my website project, a dummy version of
                 the well-known streaming platform Netflix, designed using HTML
@@ -207,14 +227,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 SWeather - A Ready To Go Weather App!
               </div>
-              <img
-                id="project2"
-                src={project4}
-                alt="sweather project"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project4m} />
+                <img
+                  id="project2"
+                  src={project4}
+                  alt="sweather project"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 'SWeather' is my website project, a user-friendly weather app
                 designed to provide instant weather updates for any location.
@@ -239,14 +262,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 My To Do - A Hassle Free Destination of All Your ToDos.
               </div>
-              <img
-                id="project3"
-                src={project5}
-                alt="mytodo project"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project5m} />
+                <img
+                  id="project3"
+                  src={project5}
+                  alt="mytodo project"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 'My To Do' is my website project, a convenient Todo List app
                 that allows users to efficiently add and organize tasks in a
@@ -271,14 +297,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 iCoder - Your Most Favourite Tech Blog Website.
               </div>
-              <img
-                id="project4"
-                src={project6}
-                alt="icoder project"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project6m} />
+                <img
+                  id="project4"
+                  src={project6}
+                  alt="icoder project"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 'iCoders' is my coding blog website project, where I honed my
                 Bootstrap skills. This website features a sleek navbar with
@@ -304,14 +333,17 @@ export default function Project() {
               <div className="projectTitle my-5" data-aos="fade-up">
                 TinDog - Meet New And Interesting Dogs Nearby!
               </div>
-              <img
-                id="project5"
-                src={project7}
-                alt="tindog project"
-                loading="lazy"
-                className="my-5"
-                style={{ width: "85%" }}
-              />
+              <picture>
+                <source media="(max-width: 500px)" srcSet={project7m} />
+                <img
+                  id="project5"
+                  src={project7}
+                  alt="tindog project"
+                  loading="lazy"
+                  className="my-5"
+                  style={{ width: "85%" }}
+                />
+              </picture>
               <p className="col-12 my-5 netflix-element" data-aos="fade-up">
                 "TinDog is an exciting single-page website project that I
                 developed as a responsive clone of Tinder, but with a fun twist
