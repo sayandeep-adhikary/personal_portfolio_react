@@ -121,8 +121,9 @@ export default function Home({ mode }) {
             style={{
               filter: `${loading ? "blur(20px)" : ""}`,
               background: "transparent",
-              width: '400px',
             }}
+            width={400}
+            height={400}
             src={currentImage}
             alt="portrait"
             className={`${styles.portrait} img-fluid`}
