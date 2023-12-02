@@ -114,14 +114,14 @@ export default function Home({ mode }) {
           </div>
         </div>
         <div
-          className="col-lg-6 col-12 order-1 order-lg-2 d-flex align-items-center justify-content-center mt-5"
+          className="col-lg-6 col-12 container order-1 order-lg-2 d-flex align-items-center justify-content-center mt-5"
           data-aos="fade-right"
         >
           <img
             style={{
               filter: `${loading ? "blur(20px)" : ""}`,
               background: "transparent",
-              width: "80%",
+              width: '400px',
             }}
             src={currentImage}
             alt="portrait"
