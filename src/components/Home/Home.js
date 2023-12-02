@@ -121,6 +121,7 @@ export default function Home({ mode }) {
             style={{
               filter: `${loading ? "blur(20px)" : ""}`,
               background: "transparent",
+              width: "80%",
             }}
             src={currentImage}
             alt="portrait"
