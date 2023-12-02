@@ -54,6 +54,7 @@ export default function Contact({mode}) {
         <div
           className="col-lg-6 col-12 order-1 order-lg-2 d-flex align-items-center justify-content-center"
           data-aos="fade-right"
+          style={{minHeight: "30vh"}}
         >
           <lottie-player src="https://lottie.host/605a22bd-4d19-4401-b80d-8de949ad5202/jaUwiP5dPn.json" background={mode === "light-theme" ? "#fff" : "#03001c"} speed="1" style={{width: "300rem"}} loop autoplay direction="1" mode="normal"></lottie-player>
           {/* <img src="" alt="" class="img2"> */}
