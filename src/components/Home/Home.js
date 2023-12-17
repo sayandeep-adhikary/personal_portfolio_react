@@ -3,6 +3,7 @@ import Typed from "typed.js";
 import styles from "./home.module.css";
 import Portrait from "./portrait.png";
 import portrait_small from "./portrait_small.png";
+import { IoIosCloudDownload } from "react-icons/io";
 
 export default function Home({ mode }) {
   const el = useRef(null);
@@ -61,17 +62,14 @@ export default function Home({ mode }) {
               A <span ref={el} className="orange_text"></span>
             </h3>
             <div className={`container my-4 px-0 ${styles.buttonContainer}`}>
-              <button
-                className={`glow-on-hover`}
-                type="button"
-                mode={mode}
-              >
+              <button className={`glow-on-hover`} type="button" mode={mode}>
                 <a
                   href="/sayandeepadhikaryresume.pdf"
                   download={"Sayandeep Adhikary Resume.pdf"}
                   style={{ color: "inherit" }}
                 >
-                  DOWNLOAD CV
+                  <IoIosCloudDownload className="downloadIcon" /> &nbsp;
+                  <span className="downloadText">DOWNLOAD CV</span>
                 </a>
               </button>
             </div>
@@ -126,7 +124,7 @@ export default function Home({ mode }) {
             height={400}
             src={currentImage}
             alt="portrait"
-            className={`${styles.portrait} img-fluid`}
+            className={`${styles.portrait} img-fluid ball`}
           />
           {/* <img src="" alt="" className="img2"> */}
         </div>

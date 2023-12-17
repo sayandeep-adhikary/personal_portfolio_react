@@ -598,7 +598,7 @@ body {
 
 /* **************************************GLowing Button css*************************************** */
 .glow-on-hover {
-  width: 220px;
+  width: 260px;
   height: 50px;
   border: none;
   outline: none;
@@ -621,6 +621,15 @@ body {
 }
 
 @media (width > 500px) {
+  .downloadIcon {
+    translate: -999px 0;
+    transition: all 0.2s ease-in-out;
+  }
+  .downloadText {
+    display: inline-block;
+    translate: -2rem !important;
+    transition: all 0.2s ease-in-out;
+  }
   .glow-on-hover a {
     position: absolute !important;
     top: 25% !important;
@@ -629,6 +638,9 @@ body {
   }
   .glow-on-hover:hover a {
     left: 10% !important;
+  }
+  .glow-on-hover:hover .downloadIcon, .glow-on-hover:hover .downloadText {
+    translate: 0 0 !important;
   }
 }
 
@@ -671,7 +683,6 @@ body {
 .glow-on-hover:hover:before {
   opacity: 1;
 }
-
 
 .glow-on-hover:after {
   z-index: -1;
@@ -874,7 +885,7 @@ body {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-@media (width < 500px){
+@media (width < 500px) {
   .projectTitle {
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -1034,4 +1045,40 @@ body {
 
 .button:hover {
   scale: 1.2;
+}
+
+/*********************************** Bounce Animation ****************************************/
+@keyframes bounce {
+  from {
+    transform: translate3d(0, -0.5rem, 0);
+    box-shadow: 0 0 200px 25px #fa7350;
+  }
+  to {
+    transform: translate3d(0, 0rem, 0);
+  }
+}
+/* Prefix Support */
+
+.ball {
+  animation-name: bounce;
+  animation-duration: 1s !important;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, -1rem, 0);
+    transform: translate3d(0, -1rem, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0rem, 0);
+    transform: translate3d(0, 0rem, 0);
+  }
 }

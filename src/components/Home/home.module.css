@@ -5,7 +5,7 @@
   border-radius: 50%;
 }
 .portrait:hover {
-  box-shadow: 0 0 500px 25px #fa7350;
+  box-shadow: 0 0 400px 25px #fa7350;
   translate: 0 -20px;
 }
 @media (width < 1000px){
