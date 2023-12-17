@@ -9,7 +9,7 @@ import Courses from "./components/Courses/Courses";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import ScrollToTop from "./components/SrollToTop/SrollToTop";
-
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   const [mode, setMode] = useState(
@@ -17,8 +17,24 @@ function App() {
   );
   return (
     <>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={true}
+        innerStyle={{
+          backgroundColor: `${mode === "light-theme" ? "#444" : "white"}`,
+          zIndex: 9999,
+        }}
+        outerStyle={{
+          border: `3px solid ${mode === "light-theme" ? "#444" : "white"}`,
+          zIndex: 9999,
+        }}
+      />
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Navbar mode={mode} setMode={setMode} />
         <div className="stars"></div>
         <div className="stars2"></div>
