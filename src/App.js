@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import ScrollToTop from "./components/SrollToTop/SrollToTop";
 import AnimatedCursor from "react-animated-cursor";
+import ProgressBar from "react-scroll-progress-bar";
 
 function App() {
   const [mode, setMode] = useState(
@@ -33,6 +34,7 @@ function App() {
           zIndex: 9999,
         }}
       />
+      <ProgressBar duration={"0.1"} height="4" />
       <Router>
         <ScrollToTop />
         <Navbar mode={mode} setMode={setMode} />
