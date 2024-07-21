@@ -50,32 +50,62 @@ export default function Navbar({ mode, setMode }) {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className={`navbar-nav ml-auto mr-5 ${styles.nav_item_container}`}>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/">
+            <NavLink
+              className="nav-link"
+              to="/"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               Home <span className="sr-only">(current)</span>
             </NavLink>
           </li>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/about">
+            <NavLink
+              className="nav-link"
+              to="/about"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               About
             </NavLink>
           </li>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/projects">
+            <NavLink
+              className="nav-link"
+              to="/projects"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               Projects
             </NavLink>
           </li>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/gallery">
+            <NavLink
+              className="nav-link"
+              to="/gallery"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               Gallery
             </NavLink>
           </li>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/contact">
+            <NavLink
+              className="nav-link"
+              to="/contact"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               Contact Me
             </NavLink>
           </li>
           <li className={`${styles.nav_item} nav-item mx-2`}>
-            <NavLink className="nav-link" to="/courses">
+            <NavLink
+              className="nav-link"
+              to="/courses"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+            >
               Courses
             </NavLink>
           </li>
@@ -84,16 +114,16 @@ export default function Navbar({ mode, setMode }) {
               className={`nav-link ${styles.mode}  button`}
               id="toggle-dark-btn"
               onClick={() => toggleMode()}
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              style={{ width: "100%" }}
             >
               <i
                 className={`fa-solid fa-${
                   mode === "light-theme" ? "moon" : "sun"
                 } mr-1`}
               />
-              <span
-                id="dark-text"
-                className={`${styles.dark_text}`}
-              >
+              <span id="dark-text" className={`${styles.dark_text}`}>
                 {mode === "light-theme" ? "Dark Mode" : "Light Mode"}
               </span>
             </button>
